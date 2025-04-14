@@ -1,0 +1,54 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node modules (if you happen to use JS for anything)
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Terraform (if you experiment with IaC)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Helm
+charts/
+*.tgz
+
+# Kubernetes
+.kube/
+*.yaml~
+*.bak
+*.tmp
+
+# Minikube & Docker
+minikube/
+*.pid
+*.sock
+*.pid.lock
+
+# Sensitive files
+.env
+.env.*
+secrets.yaml
+*.crt
+*.key
+
+# Editor / IDE config
+.vscode/
+.idea/
+*.swp
+
+# OS-generated files
+ehthumbs.db
+Icon?
+desktop.ini
+
+# macOS-specific (in case of zips)
+__MACOSX/
